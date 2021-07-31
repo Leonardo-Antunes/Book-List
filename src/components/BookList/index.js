@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import BookItem from '../BookItem';
 import { Wrapper, Title, List } from "./styles";
 
-const BookList = (book) => {
+const BookList = () => {
   const books = useSelector((state) => state.books);
 
   return (
