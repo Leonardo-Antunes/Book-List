@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import bookSlice, { deleteBook } from "../../redux/bookSlice";
+import { deleteBook } from "../../redux/bookSlice";
 
 import { Item } from "./style";
 
