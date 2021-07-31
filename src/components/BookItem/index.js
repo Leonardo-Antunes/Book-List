@@ -14,9 +14,9 @@ const BookItem = ({ id, title }) => {
   return (
     <>
       <span>
-        <Item type="text" onClick={handleDelete}>{title}</Item>
+        <Item type="text">{title}</Item>
       </span>
-      <button>Delete</button>
+      <button onClick={handleDelete}>Delete</button>
     </>
   );
 };
