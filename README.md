@@ -8,4 +8,10 @@
 
 Nesse projeto fiz uma lista de leitura, você pode adicionar e retirar livros da lista.
 
+Para utilizar o projeto basta clona-lo. Em seguida entrar na pasta e instalar os pacotes:
 
+`npm i`
+
+Por fim é só startar a aplicação com 
+
+`npm start`
